@@ -1,0 +1,50 @@
+p{
+	font-size: 30px;
+}
+
+ul{
+	font-size: 40px;
+}
+
+.pink{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	background-color: pink;
+	color:black;
+	width:1000px;
+	position: relative;
+	left:60%;
+	transform:translateX(-90%);
+	animation-name: Pink;
+	animation-duration: 5s ;
+	animation-iteration-count: infinite; 
+}
+
+.blue{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	background-color: blue;
+	color:black;
+	width:1000px;
+	position: relative;
+	left:60%;
+	transform:translateX(-90%);
+	animation-name: Blue;
+	animation-duration: 5s ;
+	animation-iteration-count: infinite; 
+}
+
+
+@keyframes Pink{
+	from{background-color:lightpink;}
+	to{background-color: lightblue;}
+}
+
+@keyframes Blue{
+	from{background-color:lightblue;}
+	to{background-color: lightpink;}
+}
